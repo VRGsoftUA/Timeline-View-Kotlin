@@ -35,8 +35,8 @@ compile 'com.github.VRGsoftUA:Timeline-View-Kotlin:1.0'
         />
     ```
 3 You need to implement YearModel interface in your model
-```java
-  public class SomeModel implements YearModel
+```kotlin
+   class SomeModel : YearModel
   ```
   
 4. In your `onCreate` method refer to the View and setup YearLayout.Builder.Also you can implement OnRowClickListener for handling clicks 
